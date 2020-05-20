@@ -1,0 +1,29 @@
+p {
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.footer > .terms > a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.footer > .terms > a:hover {
+  text-decoration: underline;
+}
+
+.power_by {
+  padding-left: 30px;
+}

@@ -1,0 +1,30 @@
+.home__title {
+  position: relative;
+  width: 100%;
+}
+
+.home__title > h1 {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 64vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+home_images:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+}
+
+.marvel {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.dc {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.marvel > a > .character {
+  border: 5px solid red;
+  border-radius: 0 25% 0 25%;
+}
+
+.dc > a > .character {
+  border: 5px solid blue;
+  border-radius: 25% 0 25% 0;
+}
+
+.title {
+  color: white;
+  font-size: 32px;
+  margin-top: -22px;
+  position: absolute;
+}

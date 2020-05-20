@@ -1,0 +1,48 @@
+.character {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 200px;
+  height: 300px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.marvel > a > .character > img {
+  border-radius: 0 25% 0 25%;
+}
+
+.dc > a > .character > img {
+  border-radius: 25% 0 25% 0;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.character:hover .image {
+  opacity: 0.3;
+}
+
+.character:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #0000008d;
+  color: white;
+  font-size: 18px;
+  padding: 8px 8px;
+}

@@ -1,0 +1,19 @@
+.header {
+  background-image: url('../../../public/header.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 150px;
+  top: 0px;
+  width: 100%;
+}
+
+.header__tittle {
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
